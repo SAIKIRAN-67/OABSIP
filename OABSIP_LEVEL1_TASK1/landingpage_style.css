@@ -1,0 +1,87 @@
+body{
+    background-image:url("75667681_kerala_house_boat_3000x1000.jpg"),linear-gradient(rgb(97, 248, 97),skyblue);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-blend-mode:darken;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+   }
+   .one{
+    float: right;
+    margin-top: 25px;
+   }
+   a{
+    font-weight: bold;
+    text-decoration: double;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+   }
+   a:hover{
+    color:rgb(12, 12, 12);
+    font-family: sans-serif;
+    text-decoration:underline rgb(41, 42, 42);
+    transition: 0.5s linear;
+    
+   }
+   .logo{
+    padding-left:100px;
+    border-radius: 50%;
+    letter-spacing: 0.5px;
+   }
+   h1{
+    color: rgba(13, 16, 17, 0.596);
+    font-family:fantasy;
+    font-weight: 50;
+    color: rgb(4, 4, 4);
+   }
+   button{
+    background: rgb(250, 77, 80);
+    float: right;
+    border-radius: 8px;
+    margin-right: 20px;
+    margin-top: 10px;
+
+   }
+   button:hover{
+    background:transparent;
+    border-color:rgb(22, 21, 21);
+    transition: 0.5s linear;
+
+  }
+   p{
+    color: white;
+    margin-top: 350px;
+    font-size: 2.5em;
+    padding-left: 500px;
+    font-weight:200;
+   }
+   .tag p a{
+    background-color:rgb(250, 77, 80);
+    font-size: 0.5em;
+    font-weight: bold;
+    border-radius: 5px 5px  5px 5px;
+    border: 1px solid ;
+   }
+   .tag p a:hover{
+    text-decoration:none;
+    background: linear-gradient(rgb(97, 248, 97),skyblue);
+   }
+   span{
+    font-weight:1000;
+    font-size: 1.5em;
+   }
+   .an{
+    padding-left: 5px;
+    padding-right: 10px;
+    padding-top: 5px;
+   }
+   .foot{
+    padding-top: 70px;
+    padding-right: 40px;
+   }
+   strong{
+    float: right;
+    font-size:1.5em;
+   }
