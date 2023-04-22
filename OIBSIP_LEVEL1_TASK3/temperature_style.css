@@ -1,0 +1,45 @@
+body{
+    background-image: url("tem3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+
+}
+p{
+    color: rgb(245, 54, 6);
+}
+#enter{
+    padding-left: 100px;
+}
+#clear{
+    margin-top:20px;
+    margin-right: 30px;
+}
+.but{
+    padding-left: 150px;
+}
+.temp{
+    padding-top: 30px;
+    padding-left: 100px;
+}
+.res{
+    padding-top: 25px;
+    padding-left: 100px;
+}
+.main{
+    margin-top: 300px;
+    margin-left: 100px;
+    border: 4px  solid black;
+    border-width: 5px;
+    height: 300px;
+    width: 500px;
+    background: linear-gradient(rgb(85, 175, 254),orangered);  
+}
+#enter{
+    margin-top: 20px;
+}
+p{
+    font-size: 1.9em;
+    padding-left: 20px;
+}

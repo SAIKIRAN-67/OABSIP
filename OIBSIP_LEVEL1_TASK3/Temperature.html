@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="temperature_style.css">
+</head>
+<body>
+    <div class="main">
+        <p><b>TEMPERATURE CONVERTER</b></p>
+        <div id="enter">
+       <b>VALUE TO CONVERT:</b><input id="input_val"  type="number" placeholder="enter the temperature">    
+        </div>
+        <div class="temp">
+            <label for=""><b>FROM:</b></label>
+            <select name="in" id="in">
+                <option value="CELSIUS">CELSIUS</option>
+                <option value="FAHRENHEIT">FAHRENHEIT</option>
+                <option value="KELVIN">KELVIN</option>
+            </select>
+            <label for=""><b>TO:</b></label>
+            <select name="out" id="out">
+                <option value="CELSIUS">CELSIUS</option>
+                <option value="FAHRENHEIT">FAHRENHEIT</option>
+                <option value="KELVIN">KELVIN</option>
+            </select>
+        </div>
+        <div class="but">
+            <button id="clear" style="background-color: orangered;">CLEAR</button>
+            <button id="convert" style="background-color:chartreuse;">CONVERT</button>
+        </div>
+        <div class="res" id="res">
+            <b>RESULT: </b><input id="result" type="text" value="" placeholder="result">
+        </div>
+        </div>
+    </div>
+    <script src="temp.js"></script>
+</body>
+</html>
